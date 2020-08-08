@@ -50,8 +50,7 @@ export class SearchForm extends Component {
 }
 
 const mapStateToProps = state =>({
-    text: state.movies.text,
-    movies:state.movies.movies
+    text: state.movies.text
 })
 
 export default connect(
