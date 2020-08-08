@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/SearchMovies/static/css/main.46a207f5.chunk.css",
+    "main.js": "/SearchMovies/static/js/main.a653ad44.chunk.js",
+    "main.js.map": "/SearchMovies/static/js/main.a653ad44.chunk.js.map",
+    "runtime-main.js": "/SearchMovies/static/js/runtime-main.5cf0a1e7.js",
+    "runtime-main.js.map": "/SearchMovies/static/js/runtime-main.5cf0a1e7.js.map",
+    "static/js/2.d14811f9.chunk.js": "/SearchMovies/static/js/2.d14811f9.chunk.js",
+    "static/js/2.d14811f9.chunk.js.map": "/SearchMovies/static/js/2.d14811f9.chunk.js.map",
+    "index.html": "/SearchMovies/index.html",
+    "precache-manifest.afa2b1d32b44bbf573cab1c51702a514.js": "/SearchMovies/precache-manifest.afa2b1d32b44bbf573cab1c51702a514.js",
+    "service-worker.js": "/SearchMovies/service-worker.js",
+    "static/css/main.46a207f5.chunk.css.map": "/SearchMovies/static/css/main.46a207f5.chunk.css.map",
+    "static/js/2.d14811f9.chunk.js.LICENSE.txt": "/SearchMovies/static/js/2.d14811f9.chunk.js.LICENSE.txt",
+    "static/media/srk.jpg": "/SearchMovies/static/media/srk.d7dba178.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5cf0a1e7.js",
+    "static/js/2.d14811f9.chunk.js",
+    "static/css/main.46a207f5.chunk.css",
+    "static/js/main.a653ad44.chunk.js"
+  ]
+}
