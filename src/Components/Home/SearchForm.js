@@ -25,6 +25,7 @@ export class SearchForm extends Component {
                         <i className="fa fa-search" /> search for a movie, TV series, Web Series...
                 </h4>
                     <div style={{ display: "flex", justifyContent: "center" }}>
+                       
                         <form id="searchForm"
                          style={{ width: "50%", alignItems: "center" }}
                          onSubmit={this.onSubmit}
@@ -53,7 +54,4 @@ const mapStateToProps = state =>({
     text: state.movies.text
 })
 
-export default connect(
-    mapStateToProps,
-    {searchMovie,fetchMovies}
-    )(SearchForm)
+export default connect(mapStateToProps, {searchMovie,fetchMovies})(SearchForm)

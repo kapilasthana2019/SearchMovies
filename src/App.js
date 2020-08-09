@@ -3,15 +3,23 @@ import './App.css';
 import Navbar from './Components/Layouts/Navbar'
 import MyFooter from './Components/Layouts/MyFooter'
 import Landing from './Components/Home/Landing'
-import {Provider} from 'react-redux'
+import Movie from './Components/Home/Movie'
+import { HashRouter as Router, Route } from 'react-router-dom'
+
+import { Provider } from 'react-redux'
 import store from './store'
 function App() {
   return (
-    <Provider store = {store}>
+    <Provider store={store}>
       <Navbar item="my navbar" />
-      <Landing />
-      <MyFooter />
-      </Provider>
+      <Router>
+        <div>
+          <Route path="/" component={Landing} exact />
+          <Route path="/movie/:id" component={Movie} exact />
+          <MyFooter />
+        </div>
+      </Router>
+    </Provider>
   );
 }
 
